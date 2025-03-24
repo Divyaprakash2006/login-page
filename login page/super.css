@@ -1,0 +1,106 @@
+#a{
+    width: 350px;
+    height: 400px;
+    border: 2px;
+    border-color:whitesmoke;
+    border-style: groove;
+    margin-left :500px;
+    margin-top: 100px;
+    border-radius: 15px 15px 15px 15px;
+    color: aliceblue;
+    backdrop-filter:blur(8.95px);
+
+
+
+    
+
+}
+#b{
+    border-style: none;
+    border: 1px;
+    margin: 25px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+body{
+    background-image: url("gradient-beautiful-landscape_23-2149122376.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-btn{
+     width: 150px;
+     height: 40px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     border-radius: 15px;
+     border-style: none;
+}
+#x{
+    width:95px;
+    height:55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style:initial;
+    background-color: rgb(239, 31, 239);
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+  
+}
+h2{
+    margin-top: 5px;
+}
+h4{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+hr{
+    border-color: rgba(255, 255, 255, 0.922);
+    border-style: double;
+    width: 95px;
+    box-shadow: 5px 5px 5px lightslategray; 
+    
+}
+i{
+    color: whitesmoke;
+    font-size: x-large;
+    border-color: 0px;
+}
+a{
+    border-style: none;
+
+
+}
+input{
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 11px;
+    border-radius: 20px 20px;
+    border-color: white;
+    border-style: initial;
+}
+button{
+    width: 20px;
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: 0px;
+    box-shadow: 4px 4px 4px ;
+}
+h3{
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+#a:hover{
+    box-shadow: 10px 10px 25px rgb(212, 33, 212) , -10px -10px +25px rgb(212, 33, 212) ;
+    transition: cubic-bezier(0.895, 0.05, 0.685, 0.95);
+}
+#x:hover{
+    box-shadow: 10px 10px 25px rgb(242, 85, 242),-10px -10px +25px rgb(242, 114, 242);
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.95);
+}
+    
